@@ -7,13 +7,13 @@ This is a supersimple abstraction for storing strings and JSON-objects in redis.
 Using npm:
 
 ```bash
-$ npm install ttl-cache-redis
+$ npm install @appfarm/ttl-cache-redis
 ```
 
 ## Example
 
 ```js
-const Cache = require('ttl-cache-redis')
+const Cache = require('@appfarm/ttl-cache-redis')
 const myCache = new Cache({
 	redisConnectionString: 'redis://localhost:6379',
 	cacheKeyPrefix: 'MY-CACHE-', // prefix any key with this value
