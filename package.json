@@ -1,0 +1,14 @@
+{
+  "name": "ttl-cache-redis",
+  "version": "1.0.0",
+  "description": "Simple abstraction of redis for storing strings and objects",
+  "main": "index.js",
+  "repository": "git@github.com:appfarm-io/ttl-cache-redis.git",
+  "author": "Ole Johnny Borgersen <ole@appfarm.io>",
+  "license": "MIT",
+  "keywords": ["redis", "ttl", "cache"],
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "redis": "^2.8.0"
+  }
+}
