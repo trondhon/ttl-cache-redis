@@ -7,6 +7,9 @@
   "author": "Ole Johnny Borgersen <ole@appfarm.io>",
   "license": "MIT",
   "keywords": ["redis", "ttl", "cache"],
+  "scripts": {
+    "publish": "npm publish --access=public"
+  },
   "dependencies": {
     "lodash": "^4.17.10",
     "redis": "^2.8.0"
