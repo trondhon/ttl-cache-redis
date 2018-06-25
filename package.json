@@ -1,12 +1,16 @@
 {
   "name": "@appfarm/ttl-cache-redis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple abstraction of redis for storing strings and objects",
   "main": "index.js",
   "repository": "git@github.com:appfarm-io/ttl-cache-redis.git",
   "author": "Ole Johnny Borgersen <ole@appfarm.io>",
   "license": "MIT",
-  "keywords": ["redis", "ttl", "cache"],
+  "keywords": [
+    "redis",
+    "ttl",
+    "cache"
+  ],
   "scripts": {
     "publish": "npm publish --access=public"
   },
