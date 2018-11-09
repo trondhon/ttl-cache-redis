@@ -101,6 +101,20 @@ class CacheModule {
 				.catch(reject)
 		})
 	}
+
+	/**
+	 * Will check if a cache key exists or not.
+	 * @param {string} key
+	 */
+	exists(key) {
+		return new Promise((resolve, reject) => {
+			if (!isString(key)) return reject('Key must be a string')
+			this.redisClient.exists(this.cacheKeyPrefix + key, (err, result) => {
+				if (err) return reject(false)
+				resolve(!!result)
+			})
+		})
+	}
 }
 
 module.exports = CacheModule
