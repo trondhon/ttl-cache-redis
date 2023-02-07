@@ -15,7 +15,7 @@
     "publish": "npm publish --access=public"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "redis": "^2.8.0"
   }
 }
